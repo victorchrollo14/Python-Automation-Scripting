@@ -1,0 +1,115 @@
+[16:21:03] LP3 TEST PROCEDURE
+[16:21:04] TEST JIG SW VERSION: 1.15.3
+[16:21:04] *********************************************************
+[16:21:04] INSTRUCTIONS
+[16:21:04] ************
+[16:21:04] 1. CONNECT CHARGER
+[16:21:04] 2. CONNECT BATTERY TO JIG
+[16:21:04] 3. INSERT SIM CARD
+[16:21:04] 4. CHECK IF GSM ANTENNA IS CONNECTED
+[16:21:04] 5. TURN OFF SW2
+[16:21:04] 6. TURN OFF SW1
+[16:21:04] 7. CONNECT FLASHING CABLE TO TARGET BOARD
+[16:21:04] 8. CONNECT JIG INTERFACE TO TARGET BOARD
+[16:21:04] 9. INSERT THE WEDGE
+[16:21:04] 10. TURN ON SW1 ONLY
+[16:21:04] *********************************************************
+[16:21:04] -->PRESS B1 BUTTON TO BEGIN AUTOMATED TESTING
+[16:21:04] *********************************************************
+[16:21:08] INPUT CURRENT TEST:
+[16:21:08] PASS
+[16:21:09] INPUT CURRENT: 1.57 mA
+[16:21:09] *********************************************************
+[16:21:10] VMCU TEST:
+[16:21:10] PASS
+[16:21:10] VMCU: 3.25 V
+[16:21:10] *********************************************************
+[16:21:10] ELECTRICAL TESTS COMPLETE
+[16:21:10] READY TO FLASH TEST SOFTWARE
+[16:21:10] TURN OFF SW1 AND TURN ON SW2
+[16:21:10] USE STLINK TO FLASH TEST SOFTWARE TO TARGET BOARD
+[16:21:10] TURN OFF SW2 AND TURN ON SW1
+[16:21:10] *********************************************************
+[16:21:10] ENTER SERIAL NUMBER AND PRESS ENTER
+[16:21:10] TO CONINUE WITHOUT SERIAL NUMBER, PRESS ENTER OR PRESS AND HOLD B1 FOR 1SEC
+[16:21:11] -->ENTER SERIAL NUMBER <LAST 4 DIGITS> :
+
+[16:21:16] Send: 0479<cr><lf>
+[16:21:16] 0479
+[16:21:16] ENTERED S/N: 0479
+[16:21:16] *********************************************************
+[16:21:16] STARTING HARDWARE TESTS
+[16:21:16] *********************************************************
+[16:21:16] LPUART TEST: PASS
+[16:21:16] *********************************************************
+[16:21:16] OUTPUT LOW TEST
+[16:21:17] OUT1: PASS
+[16:21:17] OUT2: PASS
+[16:21:17] BUCKSD: PASS
+[16:21:17] OUTPUT HIGH TEST
+[16:21:17] OUT1: PASS
+[16:21:17] OUT2: PASS
+[16:21:17] BUCKSD: PASS
+[16:21:18] *********************************************************
+[16:21:18] INPUT LOW TEST
+[16:21:18] IN1: PASS
+[16:21:18] IN2: PASS
+[16:21:18] INPUT HIGH TEST
+[16:21:18] IN1: PASS
+[16:21:18] IN2: PASS
+[16:21:18] *********************************************************
+[16:21:18] ADC TEST
+[16:21:18] PASS
+[16:21:19] LP3ADC Vref:329, Bat:518, Ntc:000, Adc1:128, Adc2:063
+[16:21:19] *********************************************************
+[16:21:21] GPS COMMUNICATION TEST:
+[16:21:26] PASS
+[16:21:26] *********************************************************
+[16:21:27] ACCELEROMETER TEST:
+[16:21:28] PASS
+[16:21:28] TYPE:ST
+[16:21:28] ID:51
+[16:21:28] *********************************************************
+[16:21:28] CHARGER TEST
+[16:21:28] TURNING ON CHARGER
+[16:21:31] CHARGER:  CONNECTED
+[16:21:31] CHARGE STATUS:  CHARGING
+[16:21:31] PASS
+[16:21:31] CHARGING CURRENT: 87.891 mA
+[16:21:32] TURNING OFF CHARGER
+[16:21:32] *********************************************************
+[16:21:33] SLEEP CURRENT TEST
+[16:21:36] PASS
+[16:21:38] WOKE
+[16:21:38] SLEEP CURRENT: 45.41 uA
+[16:21:38] *********************************************************
+[16:21:41] GSM TEST
+[16:21:41] VGSM: 4.115 V
+[16:21:41] VGSM OK
+[16:21:59] *******RECEIVED RESPONSE*******
+[16:21:59] CCID: 89914509006257956440
+[16:21:59] IMEI: 864866054335574
+[16:21:59] CSQ: 31
+[16:21:59] GSM REG PASS
+[16:21:59] STATUS PIN PASS OK
+[16:21:59] *******************************
+[16:21:59] AT CMD PASS
+[16:21:59] SIMCARD OK
+[16:21:59] GSM SIGNAL STRENGTH OK
+[16:21:59] INTERNAL STATUS PIN OK
+[16:22:00] GSM TEST PASS
+[16:22:00] *********************************************************
+[16:22:02] TEST REPORT SENT
+[16:22:05] *********************************************************
+[16:22:05] ALL TESTS ARE PASSED
+[16:22:05] PRESS B1 TO GENERATE UID
+[16:22:07] *********************************************************
+[16:22:07] UID GENERATION BEGINS...THIS WILL TAKE SEVERAL MINUTES
+[16:22:07] APN OK
+[16:22:09] CON OK
+[16:22:13] IP  OK
+[16:22:15] URL OK
+[16:22:15] SENDING
+[16:22:17] UID 36087
+[16:22:17] *********************************************************
+[16:22:17] TESTREPORT,PASS,,0479,1,111111,1111,1,1,1,187.891,1,45.41,1
